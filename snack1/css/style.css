@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
+}
+
+ul li i {
+    font-size: 12px;
+    margin: 0 10px 0 10px;
+    color: #FF5430;
+    background-color: #000000;
+    border-radius: 50px;
+}
+
+ul li {
+    list-style: none;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li:hover {
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+
+.vs {
+    color: #ffffff;
+    font-size: 17px;
+    margin: 0 10px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    background-color: #000000;
+}
